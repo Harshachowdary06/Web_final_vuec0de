@@ -1,8 +1,9 @@
-# finalweb
+# final web project
+#### This code is written on the purpose of a project completion in course web database application development
 
 ## Project setup
 ```
-npm install
+npm install <project name>
 ```
 
 ### Compiles and hot-reloads for development
