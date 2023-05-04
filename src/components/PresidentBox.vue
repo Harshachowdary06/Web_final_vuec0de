@@ -1,6 +1,6 @@
 <template>
-    <div class="car-box">
-        <div v-for="president of pDetails" :key="president._id" class="car-item">
+    <div class="president-box">
+        <div v-for="president of pDetails" :key="president._id" class="president-item">
             <SPresident :president=president />
         </div>
     </div>
@@ -22,13 +22,13 @@ export default {
 }
 </script>
 <style scoped>
-.car-box {
+.president-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.car-item {
+.president-item {
     margin: 10px;
 }
 </style>

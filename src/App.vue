@@ -1,12 +1,10 @@
 <template>
 
-  <!--Step 3 use the component-->
    <MyHeader ProjectTitle="First Ten American Presidents" Country="USA" />
    <PresidentBox :pDetails=pDetails />
 </template>
 
 <script>
-// Step: 1 Import the components
 import MyHeader from './components/MyHeader.vue';
 import PresidentBox from './components/PresidentBox.vue';
 
@@ -14,7 +12,6 @@ export default {
   name: 'App',
 
   
-  // Step 2: Register the components
   components: {
     MyHeader,
     PresidentBox
@@ -25,7 +22,6 @@ export default {
     } 
   },
   methods:{
-    //promises
     async fetchpDetails(){
       const res = await fetch('https://sai-sri-harsha-backend.onrender.com/api');
       const data = await res.json();
