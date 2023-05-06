@@ -3,7 +3,7 @@
 
 ## Project setup
 ```
-npm install <project name>
+Vue create <project name>
 ```
 
 ### Compiles and hot-reloads for development
